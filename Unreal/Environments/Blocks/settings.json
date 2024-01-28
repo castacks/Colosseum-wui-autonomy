@@ -26,7 +26,19 @@
 										"ImageType": 0,
 										"Width": 1920,
 										"Height": 1080,
-										"FOV_Degrees": 90
+										"FOV_Degrees": 120
+									}
+								],
+								"X": 0.50, "Y": 0.0, "Z": 0.10,
+								"Pitch": 0.0, "Roll": 0.0, "Yaw": 0.0
+							},
+							"front_downsampled": {
+								"CaptureSettings": [
+									{
+										"ImageType": 0,
+										"Width": 1440,
+										"Height": 810,
+										"FOV_Degrees": 120
 									}
 								],
 								"X": 0.50, "Y": 0.0, "Z": 0.10,
@@ -72,7 +84,7 @@
                 "Lidar": {
                     "SensorType": 6,
                     "Enabled" : true,
-                    "NumberOfChannels": 32,
+                    "NumberOfChannels": 16,
                     "RotationsPerSecond": 10,
                     "PointsPerSecond": 300000,
                     "X": 0, "Y": 0, "Z": 0,
